@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans';
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: black;
+    padding: 10px 100px;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.input {
+    font-size: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.errorText {
+    color: red;
+}
+
+
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.56);
+    padding: 100px;
+}
